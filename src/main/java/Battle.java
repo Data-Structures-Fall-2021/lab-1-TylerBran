@@ -40,8 +40,8 @@ public class Battle{
     public  String getMonster2Name(){
         return Name2;
     }
-    public float getMonster1Hp(){ return Hp1;}
-    public float getMonster2Hp(){ return Hp2;}
+    public float getMonster1HP(){ return Hp1;}
+    public float getMonster2HP(){ return Hp2;}
     
     public void simulateRound(){
         float DamageOn1 = (Attack2 - Defense1);
