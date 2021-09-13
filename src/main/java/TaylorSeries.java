@@ -1,15 +1,13 @@
 public class TaylorSeries {
     public static double approximateExp(int exponent, int NumIterations){
         double approx=0;
-        int Iterations=0;
-        while(Iterations<=NumIterations){
-            approx=approx+(pow(exponent,Iterations)/factorial(Iterations));
-            Iterations++;
+        for(int t =0;t<NumIterations;t++){
+            approx+=(pow(exponent,t)/factorial(t));
         }
         return approx;
     }
     public static double factorial(int n){
-        if(n==0){
+        if(n<=1){
             return 1;
         } else{
             return(n*factorial(n-1));
