@@ -1,4 +1,4 @@
-public class Battle {
+public class Battle{
     int RoundNum = 1;
     String Name1;
     float Attack1;
@@ -40,6 +40,9 @@ public class Battle {
     public  String getMonster2Name(){
         return Name2;
     }
+    public float getMonster1Hp(){ return Hp1;}
+    public float getMonster2Hp(){ return Hp2;}
+    
     public void simulateRound(){
         float DamageOn1 = (Attack2 - Defense1);
         float DamageOn2 = (Attack1 - Defense2);
@@ -52,7 +55,5 @@ public class Battle {
         System.out.println(Name2+": "+Hp2);
         RoundNum++;
         System.out.println("\t");
-    }   
-    
-
+    }
 }
