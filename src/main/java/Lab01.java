@@ -53,3 +53,4 @@ public class Lab01 {
         System.out.printf("e^1 = %.5f\n", TaylorSeries1.approximateExp(1, numIterations));
         System.out.printf("e^2 = %.5f\n", TaylorSeries2.approximateExp(2, numIterations));
     }
+}
