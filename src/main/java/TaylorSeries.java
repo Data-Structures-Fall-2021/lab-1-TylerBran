@@ -22,5 +22,4 @@ public class TaylorSeries {
             return(x*pow(x,n-1));
         }
     }
-
 }
