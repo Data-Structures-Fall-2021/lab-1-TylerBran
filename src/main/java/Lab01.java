@@ -50,7 +50,7 @@ public class Lab01 {
         System.out.println("\n*** Part 2 ***");
         int numIterations = 10;
 
-        System.out.printf("e^1 = %.5f\n", TaylorSeries.approximateExp(1, numIterations));
-        System.out.printf("e^2 = %.5f\n", TaylorSeries.approximateExp(2, numIterations));
+        System.out.printf("e^1 = %.8f\n", TaylorSeries.approximateExp(1, numIterations));
+        System.out.printf("e^2 = %.8f\n", TaylorSeries.approximateExp(2, numIterations));
     }
 }
